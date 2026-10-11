@@ -1,0 +1,54 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: darkgray;
+    height: 10vh;
+}
+#heading{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.main-container p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.box-color{
+    padding: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    border: solid 2px gainsboro;
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+#input-name{
+    padding: .5rem;
+    margin-right: 10px;
+}
+#greet-btn{
+    padding: .5rem;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: darkgrey;
+}
